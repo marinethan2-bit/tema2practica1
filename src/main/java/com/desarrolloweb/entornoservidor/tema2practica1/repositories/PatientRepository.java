@@ -10,21 +10,21 @@ import com.desarrolloweb.entornoservidor.tema2practica1.model.Patient;
 public class PatientRepository implements IPatientRepository {
 
     @Override
-    public Patient findById(Long id) {
+    public Patient getById(Long id) {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findById'");
+        throw new UnsupportedOperationException("Unimplemented method 'getById'");
     }
 
     @Override
-    public List<Patient> findAll() {
+    public List<Patient> getAll() {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findAll'");
+        throw new UnsupportedOperationException("Unimplemented method 'getAll'");
     }
 
     @Override
-    public Patient save(Patient patient) {
+    public Patient add(Patient patient) {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'save'");
+        throw new UnsupportedOperationException("Unimplemented method 'add'");
     }
 
 }

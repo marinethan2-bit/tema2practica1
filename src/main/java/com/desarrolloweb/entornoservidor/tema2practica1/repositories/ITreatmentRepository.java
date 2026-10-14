@@ -5,11 +5,11 @@ import com.desarrolloweb.entornoservidor.tema2practica1.model.Treatment;
 
 public interface ITreatmentRepository {
     // Busca un tratamiento por su id
-    Treatment findById(Long id);
+    Treatment getById(Long id);
 
     // Devuelve la lista de todos los tratamientos
-    List<Treatment> findAll();
+    List<Treatment> getAll();
 
     // Guarda un tratamiento nuevo o actualiza uno existente
-    Treatment save(Treatment treatment);
+    Treatment add(Treatment treatment);
 }

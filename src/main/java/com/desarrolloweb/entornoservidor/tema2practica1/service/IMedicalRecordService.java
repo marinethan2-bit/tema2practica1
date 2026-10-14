@@ -5,13 +5,13 @@ import com.desarrolloweb.entornoservidor.tema2practica1.model.MedicalRecord;
 
 public interface IMedicalRecordService {
     // Busca un historial médico por su id
-    MedicalRecord findById(Long id);
+    MedicalRecord getById(Long id);
 
     // Devuelve la lista de todos los historiales médicos
-    List<MedicalRecord> findAll();
+    List<MedicalRecord> getAll();
 
     // Guarda un historial médico nuevo o actualiza uno existente
-    MedicalRecord save(MedicalRecord medicalRecord);
+    MedicalRecord add(MedicalRecord medicalRecord);
 
     // Devuelve la lista de historiales médicos de un paciente concreto a traves de
     // su id

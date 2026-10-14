@@ -10,21 +10,21 @@ import com.desarrolloweb.entornoservidor.tema2practica1.model.Treatment;
 public class TreatmentRepository implements ITreatmentRepository{
 
     @Override
-    public Treatment findById(Long id) {
+    public Treatment getById(Long id) {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findById'");
+        throw new UnsupportedOperationException("Unimplemented method 'getById'");
     }
 
     @Override
-    public List<Treatment> findAll() {
+    public List<Treatment> getAll() {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findAll'");
+        throw new UnsupportedOperationException("Unimplemented method 'getAll'");
     }
 
     @Override
-    public Treatment save(Treatment treatment) {
+    public Treatment add(Treatment treatment) {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'save'");
+        throw new UnsupportedOperationException("Unimplemented method 'add'");
     }
     
 }
