@@ -15,25 +15,25 @@ public class MedicalRecordServiceAlternative implements IMedicalRecordService{
 
     @Override
     public MedicalRecord getById(Long id) {
-        // Busca un historial médico por su identificador.
+        // Busca un historial médico por su id
         return medicalRecordRepository.getById(id);
     }
 
     @Override
     public List<MedicalRecord> getAll() {
-        // Devuelve todos los historiales médicos.
+        // Devuelve todos los historiales médicos
         return medicalRecordRepository.getAll();
     }
 
     @Override
     public MedicalRecord add(MedicalRecord medicalRecord) {
-        // Guarda un historial médico nuevo o actualiza uno existente.
+        // Guarda un historial médico nuevo o actualiza uno existente
         return medicalRecordRepository.add(medicalRecord);
     }
 
     @Override
     public List<MedicalRecord> getRecordsByPatientId(Long patientId) {
-        // Busca los historiales médicos asociados a un paciente.
+        // Busca los historiales médicos asociados a un paciente
         List<MedicalRecord> records = new ArrayList<>();
 
         for (MedicalRecord record : medicalRecordRepository.getAll()) {
