@@ -13,6 +13,7 @@ public interface IMedicalRecordService {
     // Guarda un historial médico nuevo o actualiza uno existente
     MedicalRecord save(MedicalRecord medicalRecord);
 
-    // Devuelve la lista de historiales médicos de un paciente concreto a traves de su id
+    // Devuelve la lista de historiales médicos de un paciente concreto a traves de
+    // su id
     List<MedicalRecord> getRecordsByPatientId(Long patientId);
 }
